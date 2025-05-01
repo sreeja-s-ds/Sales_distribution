@@ -45,11 +45,13 @@ Jupyter Notebook: for running and visualizing exploratory code
 📊 Q1: Is Sales_Amount Normally Distributed?
 
 Shapiro-Wilk Test p-value: 0.0000 → Not Normal
+
 Interpretation: The sales amounts do not follow a normal distribution. Further analysis should use non-parametric or distribution-agnostic methods.
 
 📊 Q2: What is the Skewness of Unit_Price?
 
 Skewness = 0.02 → Right-Skewed
+
 Interpretation: Unit_Price is very slightly right-skewed, but close to symmetric.
 
 📊 Q3: Is Quantity_Sold Uniformly Distributed?
@@ -94,7 +96,7 @@ Interpretation: Lower than the 68% expected in a normal distribution—supports 
 
 Yes. Returning customers show higher median and more variation.
 
-Interpretation: Loyal customers tend to buy more or buy higher-ticket items.
+Interpretation: Returning customers tend to buy more or buy higher-ticket items.
 
 📊 Q10: Are There Outliers in Sales_Amount?
 
